@@ -148,9 +148,9 @@ input::placeholder {
 }
 
 @media screen and (max-width: 568px) {
-  input {
+  /* input {
     width: 70% !important;
-  }
+  } */
   button {
     width: 20%;
   }
@@ -186,6 +186,50 @@ input::placeholder {
     margin: 20px;
     padding: none;
     width: 90%;
+  }
+  .sidebar {
+    width: 20% !important;
+  }
+  .chat {
+    width: 80% !important;
+  }
+  .nav-logo {
+    display: none;
+  }
+  .usersChat {
+    flex-direction: column;
+  }
+  .usersChatInfo p {
+    display: none;
+  }
+  .usersChatInfo span {
+    display: block !important;
+    font-size: 10px !important;
+  }
+  .usersChat img {
+    padding: 2px !important;
+  }
+  .search-form {
+    /* width: fit-content !important; */
+    width: 30px;
+  }
+  .search-form input {
+    width: 100px !important;
+    border-radius: 3px !important;
+  }
+  .search-form button {
+    width: 50px !important;
+    border-radius: 3px !important;
+  }
+  .search-form {
+    flex-direction: column;
+  }
+  .nav-user img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .messageContent p {
+    font-size: 12px;
   }
 }
 
@@ -398,6 +442,7 @@ input::placeholder {
   padding: 10px 20px;
   border-radius: 0px 10px 10px 10px;
   max-width: 80%;
+  overflow-wrap: break-word;
 }
 .messageContent img {
   width: 50%;
